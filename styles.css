@@ -1,3 +1,4 @@
+/* Réinitialisation de base */
 * {
     margin: 0;
     padding: 0;
@@ -19,10 +20,11 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .menu {
-    width: 60%;
+    width: 65%;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -93,3 +95,46 @@ button.supprimer:hover {
     background-color: #e53935;
 }
 
+/* Media Queries */
+
+/* Pour les écrans de tablette comme l'iPad Mini */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .panier {
+        width: 100%;
+    }
+}
+
+/* Pour les petits écrans mobiles */
+@media (max-width: 480px) {
+    .menu {
+        padding: 15px;
+    }
+
+    .panier {
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    button.supprimer {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+
+    #total {
+        font-size: 16px;
+    }
+}
