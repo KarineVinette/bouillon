@@ -1,3 +1,9 @@
+Pour rendre cette application responsive et adaptée aux écrans mobiles et à l'iPad Mini, il est nécessaire d'utiliser des media queries pour ajuster la mise en page en fonction des tailles d'écran. Voici les modifications à apporter pour rendre l'application responsive.
+
+### CSS (styles.css)
+Vous pouvez utiliser des media queries pour ajuster la disposition de la carte de restaurant et du panier. Nous allons rendre la page plus flexible sur les petits écrans, en particulier pour les appareils mobiles et les tablettes comme l'iPad Mini.
+
+```css
 /* Réinitialisation de base */
 * {
     margin: 0;
@@ -89,7 +95,6 @@ button.supprimer {
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.3s;
-    margin-top: 10px;
 }
 
 button.supprimer:hover {
@@ -133,10 +138,26 @@ button.supprimer:hover {
     button.supprimer {
         padding: 4px 8px;
         font-size: 12px;
-        margin-top: 10px;
     }
 
     #total {
         font-size: 16px;
     }
 }
+```
+
+### Explications des modifications :
+1. **Container** : Dans les media queries, j'ai ajusté la disposition de `.container` pour qu'elle passe en colonne (`flex-direction: column`) sur les écrans plus petits (tablettes et mobiles). Cela permettra au menu et au panier de s'afficher en dessous les uns des autres.
+   
+2. **Menu et Panier** : Pour les tablettes et appareils mobiles, la largeur du menu et du panier est ajustée à 100 % et ils se placent l'un au-dessus de l'autre.
+
+3. **Boutons** : Les tailles de boutons sont réduites sur les petits écrans pour améliorer l'expérience utilisateur. Le bouton "Supprimer" devient aussi plus petit sur mobile.
+
+4. **Police et padding** : Sur les écrans mobiles, la taille du texte et les espacements sont réduits pour éviter que le texte soit trop grand par rapport à l'écran. 
+
+### Résultats attendus :
+- **Sur desktop** (écran large) : Le menu et le panier sont affichés côte à côte, chacun ayant une largeur de 65 % et 30 % respectivement.
+- **Sur tablette** (iPad Mini ou moins) : Les éléments sont empilés verticalement, avec le menu prenant toute la largeur et le panier également.
+- **Sur mobile** (moins de 480px) : Le texte et les boutons sont plus petits et prennent moins de place, et les sections sont également empilées verticalement.
+
+Avec ces modifications, votre application sera maintenant responsive et adaptée aux différents appareils comme les smartphones et les tablettes.
