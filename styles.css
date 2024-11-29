@@ -101,7 +101,7 @@ button.supprimer:hover {
 /* Media Queries */
 
 /* Pour les écrans de tablette comme l'iPad Mini */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .container {
         flex-direction: column;
         align-items: center;
@@ -115,10 +115,10 @@ button.supprimer:hover {
     .panier {
         width: 100%;
     }
-}
+} */
 
 /* Pour les petits écrans mobiles */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .menu {
         padding: 15px;
     }
@@ -142,3 +142,4 @@ button.supprimer:hover {
         font-size: 16px;
     }
 }
+ */
