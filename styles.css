@@ -29,6 +29,7 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex:3;
 }
 
 .menu h2 {
@@ -50,12 +51,22 @@ h3{ color:blue}
     background-color: #f0f0f0;
 }
 
-.panier {
+/* .panier {
     width: 30%;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+.panier {
+    flex: 2; /* Taille relative */
+    position: sticky; /* Permet de rester visible lors du scroll */
+    top: 20px; /* Distance depuis le haut de la fenêtre */
+    background-color: #f8f8f8; /* Optionnel : fond pour le contraste */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-height: fit-content;
 }
 
 #panier-items {
