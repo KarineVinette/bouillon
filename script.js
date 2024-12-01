@@ -30,16 +30,17 @@ const produits = [
 
     { id: 41, nom: 'Andouillette', prix: 14, categorie: 'Plats' },
     { id: 42, nom: 'Poulet', prix: 14, categorie: 'Plats' },
-    { id: 43, nom: 'Broché', prix: 14, categorie: 'Plats' },
+    { id: 43, nom: 'Limande', prix: 14, categorie: 'Plats' },
     { id: 44, nom: 'Plat du jour', prix: 12, categorie: 'Plats' },
     { id: 45, nom: 'Burger', prix: 15, categorie: 'Plats' },
     { id: 46, nom: 'Pavé boeuf', prix: 15.5, categorie: 'Plats' },
 
-    { id: 50, nom: 'Riz au lait', prix: 3.5, categorie: 'Desserts' },
+    { id: 50, nom: 'Royal choco', prix: 5, categorie: 'Desserts' },
     { id: 51, nom: 'Crème brulée', prix: 3.5, categorie: 'Desserts' },
     { id: 52, nom: 'Mousse choco', prix: 3.5, categorie: 'Desserts' },
     { id: 53, nom: 'Tiramisu', prix: 5, categorie: 'Desserts' },
-    { id: 54, nom: 'Fromagée', prix: 4, categorie: 'Desserts' },
+    { id: 54, nom: 'Bourdaloue', prix: 5, categorie: 'Desserts' },
+    { id: 55, nom: 'Fromagée', prix: 4, categorie: 'Desserts' },
 
     { id: 13, nom: 'Café', prix: 1.3, categorie: 'Desserts' },
     { id: 14, nom: 'Grand café', prix: 2.5, categorie: 'Desserts' },
