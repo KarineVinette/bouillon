@@ -1,58 +1,87 @@
 const produits = [
-    { id: 1, nom: 'Ricard', prix: 2.5, categorie: 'Boissons' },
-    { id: 2, nom: 'Martini', prix: 3.5, categorie: 'Boissons' },
-    { id: 3, nom: 'Porto', prix: 3.5, categorie: 'Boissons' },
-    { id: 5, nom: 'Kir', prix: 2.5, categorie: 'Boissons' },
-    { id: 4, nom: 'Vin', prix: 3.5, categorie: 'Boissons' },
-    { id: 6, nom: 'Tigre 25cl', prix: 3.5, categorie: 'Boissons' },
-    { id: 7, nom: 'Tigre 50cl', prix: 6, categorie: 'Boissons' },
-    { id: 8, nom: 'Grim 25cl', prix: 4, categorie: 'Boissons' },
-    { id: 9, nom: 'Grim 50cl', prix: 7, categorie: 'Boissons' },
-    { id: 10, nom: 'Picon', prix: 4, categorie: 'Boissons' },
-    { id: 11, nom: 'Soda, Pago', prix: 3.5, categorie: 'Boissons' },
-    { id: 12, nom: 'EAU', prix: 1.5, categorie: 'Boissons' },
-   
-    { id: 17, nom: 'Menetou 75cl', prix: 18, categorie: 'Boissons' },
-    { id: 18, nom: 'Menetou 12.5cl', prix: 3.5, categorie: 'Boissons' },
-    { id: 19, nom: 'Reuilly 75cl', prix: 20, categorie: 'Boissons' },
-    { id: 20, nom: 'Reuilly 12.5cl', prix: 3.5, categorie: 'Boissons' },
-    { id: 21, nom: 'Sancerre 75cl', prix: 28, categorie: 'Boissons' },
-    { id: 22, nom: 'Sancerre 12.5cl', prix: 4, categorie: 'Boissons' },
+     { id: 100, nom: 'Coca', prix: 2.5, categorie: 'Boissons' },
+    { id: 101, nom: 'Fanta', prix: 2.5, categorie: 'Boissons' },
+    { id: 102, nom: 'Biere', prix: 3.5, categorie: 'Boissons' },
+     
+    
 
-    { id: 23, nom: 'Carottes', prix: 1, categorie: 'Entrées' },
-    { id: 24, nom: 'Oeufs mayo', prix: 2.5, categorie: 'Entrées' },
-    { id: 25, nom: 'Oeufs pochés', prix: 6, categorie: 'Entrées' },
-    { id: 26, nom: 'Harengs', prix: 5, categorie: 'Entrées' },
-    { id: 27, nom: 'Terrine', prix: 5, categorie: 'Entrées' },
-    { id: 28, nom: 'Gésiers', prix: 6, categorie: 'Entrées' },
-    { id: 29, nom: 'Foie gras', prix: 15, categorie: 'Entrées' },
-    { id: 30, nom: 'Escargots', prix: 10, categorie: 'Entrées' },
+    { id: 1, nom: 'Marguerita S', prix: 6, categorie: 'Pizzas' },
+    { id: 2, nom: 'Marguerita M', prix: 9, categorie: 'Pizzas' },
+    { id: 3, nom: 'Marguerita L', prix: 11, categorie: 'Pizzas' },
+    { id: 4, nom: 'Elyna S', prix: 9, categorie: 'Pizzas' },
+    { id: 5, nom: 'Elyna M', prix: 12, categorie: 'Pizzas' },
+    { id: 6, nom: 'Elyna L', prix: 14, categorie: 'Pizzas' },
+    { id: 7, nom: 'Calzone S', prix: 8.5, categorie: 'Pizzas' },
+    { id: 8, nom: 'Calzone M', prix: 11, categorie: 'Pizzas' },
+    { id: 9, nom: 'Calzone L', prix: 13, categorie: 'Pizzas' },
+    { id: 10, nom: 'Francesco S', prix: 8.5, categorie: 'Pizzas' },
+    { id: 11, nom: 'Francesco M', prix: 11, categorie: 'Pizzas' },
+    { id: 12, nom: 'Francesco L', prix: 13, categorie: 'Pizzas' },
+    { id: 13, nom: '4 Fromages S', prix: 8.5, categorie: 'Pizzas' },
+    { id: 14, nom: '4 Fromages M', prix: 11, categorie: 'Pizzas' },
+    { id: 15, nom: '4 Fromages L', prix: 13, categorie: 'Pizzas' },
+    { id: 16, nom: 'Calabrese S', prix: 9, categorie: 'Pizzas' },
+    { id: 17, nom: 'Calabrese M', prix: 11.5, categorie: 'Pizzas' },
+    { id: 18, nom: 'Calabrese L', prix: 13.5, categorie: 'Pizzas' },
+    { id: 19, nom: 'Giuseppe S', prix: 9, categorie: 'Pizzas' },
+    { id: 20, nom: 'Giuseppe M', prix: 11, categorie: 'Pizzas' },
+    { id: 21, nom: 'Giuseppe L', prix: 13, categorie: 'Pizzas' },
+    
+    { id: 22, nom: 'Berrichonne S', prix: 9, categorie: 'Pizzas' },
+    { id: 23, nom: 'Berrichonne M', prix: 12, categorie: 'Pizzas' },
+    { id: 24, nom: 'Berrichonne L', prix: 14, categorie: 'Pizzas' },
+    
+    { id: 25, nom: 'Mortadella S', prix: 9.5, categorie: 'Pizzas' },
+    { id: 26, nom: 'Mortadella M', prix: 12, categorie: 'Pizzas' },
+    { id: 27, nom: 'Mortadella L', prix: 14, categorie: 'Pizzas' },
+    
+    { id: 28, nom: 'Enfant', prix: 5, categorie: 'Pizzas' },
 
-    { id: 41, nom: 'Andouillette', prix: 14, categorie: 'Plats' },
-    { id: 42, nom: 'Poulet', prix: 14, categorie: 'Plats' },
-    { id: 43, nom: 'Limande', prix: 14, categorie: 'Plats' },
-    { id: 44, nom: 'Plat du jour', prix: 12, categorie: 'Plats' },
-    { id: 45, nom: 'Burger', prix: 15, categorie: 'Plats' },
-    { id: 46, nom: 'Pavé boeuf', prix: 15.5, categorie: 'Plats' },
 
-    { id: 50, nom: 'Royal choco', prix: 5, categorie: 'Desserts' },
-    { id: 51, nom: 'Crème brulée', prix: 3.5, categorie: 'Desserts' },
-    { id: 52, nom: 'Mousse choco', prix: 3.5, categorie: 'Desserts' },
-    { id: 53, nom: 'Tiramisu', prix: 5, categorie: 'Desserts' },
-    { id: 54, nom: 'Bourdaloue', prix: 5, categorie: 'Desserts' },
-    { id: 55, nom: 'Fromagée', prix: 4, categorie: 'Desserts' },
 
-    { id: 13, nom: 'Café', prix: 1.3, categorie: 'Desserts' },
-    { id: 14, nom: 'Grand café', prix: 2.5, categorie: 'Desserts' },
-    { id: 15, nom: 'Choco', prix: 3, categorie: 'Desserts' },
-    { id: 16, nom: 'Thé', prix: 2.8, categorie: 'Desserts' },
+    { id: 40, nom: 'Tomates cerises', prix: 0.9, categorie: 'Suppléments' },
+    { id: 41, nom: 'Pommes de terre', prix: 0.5, categorie: 'Suppléments' },
+    { id: 42, nom: 'Champignons', prix: 1, categorie: 'Suppléments' },
+    { id: 43, nom: 'Olives', prix: 0.8, categorie: 'Suppléments' },
+    { id: 44, nom: 'Roquette', prix: 0.8, categorie: 'Suppléments' },
+    { id: 45, nom: 'Poivrons', prix: 0.7, categorie: 'Suppléments' },
+    { id: 46, nom: 'Oignons', prix: 0.7, categorie: 'Suppléments' },
+    { id: 47, nom: 'Avocat', prix: 2, categorie: 'Suppléments' },
+    { id: 48, nom: 'Parmesan', prix: 1, categorie: 'Suppléments' },
+    { id: 49, nom: 'Chèvre', prix: 2.5, categorie: 'Suppléments' },
+
+    { id: 50, nom: 'Cheddar', prix: 2, categorie: 'Suppléments' },
+    { id: 51, nom: 'Buratta', prix: 3.5, categorie: 'Suppléments' },
+    { id: 52, nom: 'Mozza di Latte', prix: 2.5, categorie: 'Suppléments' },
+    { id: 53, nom: 'Mozza di Buffala', prix: 3, categorie: 'Suppléments' },
+    { id: 54, nom: 'Emmental', prix: 1.5, categorie: 'Suppléments' },
+    { id: 55, nom: 'Creme', prix: 1, categorie: 'Suppléments' },
+    { id: 56, nom: 'Beurre persillé', prix: 1.5, categorie: 'Suppléments' },
+    { id: 57, nom: 'Poulet', prix: 2.5, categorie: 'Suppléments' },
+    { id: 58, nom: 'Viande haché', prix: 3, categorie: 'Suppléments' },
+    { id: 59, nom: 'Jambon poulet', prix: 2.5, categorie: 'Suppléments' },
+
+    { id: 60, nom: 'Jambon cru', prix: 3, categorie: 'Suppléments' },
+    { id: 61, nom: 'Merguez', prix: 2.8, categorie: 'Suppléments' },
+    { id: 62, nom: 'Chorizo Boeuf Mouton', prix: 2.8, categorie: 'Suppléments' },
+    { id: 63, nom: 'Lardons Volaille', prix: 2.6, categorie: 'Suppléments' },
+    { id: 64, nom: 'Mortadella', prix: 2.8, categorie: 'Suppléments' },
+
+    { id: 65, nom: 'Thon', prix: 2.6, categorie: 'Suppléments' },
+    { id: 66, nom: 'Oeuf', prix: 1, categorie: 'Suppléments' },
+    { id: 67, nom: 'Miel', prix: 0.5, categorie: 'Suppléments' },
+
+
+    { id: 90, nom: 'Tiramisu', prix: 4.5, categorie: 'Desserts' },
+    { id: 91, nom: 'Tiramisu fruit', prix: 4.8, categorie: 'Desserts' },
+
 
 ];
 
 const panier = [];
 
 function afficherMenu() {
-    const categories = ['Boissons', 'Entrées', 'Plats', 'Desserts'];
+    const categories = ['Boissons', 'Pizzas', 'Suppléments', 'Desserts'];
     const menuContainer = document.querySelector('.menu');
 
     categories.forEach(categorie => {
