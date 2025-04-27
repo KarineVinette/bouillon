@@ -34,8 +34,40 @@ const produits = [
     { id: 25, nom: 'Mortadella S', prix: 9.5, categorie: 'Pizzas' },
     { id: 26, nom: 'Mortadella M', prix: 12, categorie: 'Pizzas' },
     { id: 27, nom: 'Mortadella L', prix: 14, categorie: 'Pizzas' },
+
+    { id: 28, nom: 'Buffala S', prix: 9, categorie: 'Pizzas' },
+    { id: 29, nom: 'Buffala M', prix: 11, categorie: 'Pizzas' },
+    { id: 30, nom: 'Buffala L', prix: 13, categorie: 'Pizzas' },
+
+    { id: 31, nom: 'Rocco S', prix: 9, categorie: 'Pizzas' },
+    { id: 32, nom: 'Rocco M', prix: 11, categorie: 'Pizzas' },
+    { id: 33, nom: 'Rocco L', prix: 13, categorie: 'Pizzas' },
+
+    { id: 34, nom: 'Alessandro S', prix: 9, categorie: 'Pizzas' },
+    { id: 35, nom: 'Alessandro M', prix: 11, categorie: 'Pizzas' },
+    { id: 36, nom: 'Alessandro L', prix: 13, categorie: 'Pizzas' },
+
+    { id: 37, nom: 'Avocado S', prix: 9.6, categorie: 'Pizzas' },
+    { id: 38, nom: 'Avocado M', prix: 11.6, categorie: 'Pizzas' },
+    { id: 39, nom: 'Avocado L', prix: 13.6, categorie: 'Pizzas' },
+
+    { id: 40, nom: 'Americana S', prix: 9, categorie: 'Pizzas' },
+    { id: 41, nom: 'Americana M', prix: 11, categorie: 'Pizzas' },
+    { id: 42, nom: 'Americana L', prix: 13, categorie: 'Pizzas' },
+
+    { id: 43, nom: 'Maradona S', prix: 9.5, categorie: 'Pizzas' },
+    { id: 44, nom: 'Maradona M', prix: 12, categorie: 'Pizzas' },
+    { id: 45, nom: 'Maradona L', prix: 14, categorie: 'Pizzas' },
+
+    { id: 46, nom: 'Cariatèse S', prix: 9.5, categorie: 'Pizzas' },
+    { id: 47, nom: 'Cariatèse M', prix: 12, categorie: 'Pizzas' },
+    { id: 48, nom: 'Cariatèse L', prix: 14, categorie: 'Pizzas' },
+
+    { id: 49, nom: 'Chèvre-miel S', prix: 9, categorie: 'Pizzas' },
+    { id: 50, nom: 'Chèvre-miel M', prix: 11, categorie: 'Pizzas' },
+    { id: 51, nom: 'Chèvre-miel L', prix: 13, categorie: 'Pizzas' },
     
-    { id: 28, nom: 'Enfant', prix: 5, categorie: 'Pizzas' },
+    { id: 52, nom: 'Enfant', prix: 5, categorie: 'Pizzas' },
 
 
 
